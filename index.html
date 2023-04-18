@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Custom Umbrella</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+
+    <body>
+
+
+        <div class="container">
+            <div class="left">
+                <img class="umbrelaImage" src="./Blue umbrella.png" alt="">
+                <div class="logo"></div>
+            </div>
+            <div class="right">
+
+
+                <div>
+
+                    <h1>Custom Umbrella</h1>
+                    <div onclick=chosecolor(event) class="color-selection">
+                        <div id="blue" class="selected-color"></div>
+                        <div id="yellow"></div>
+                        <div id="pink"></div>
+                    </div>
+                    <p>Customize your umbrella</p>
+                    <p>Upload a logo for an instant preview</p>
+                    <small>.png and .jpg files only. max file size is 5MB</small>
+                    <div class="custom-upload-btn">
+                        <img src="./Mediamodifier-Design (4).svg" alt="">
+                        <span>Upload Logo</span>
+                        <input type="file" name="image" id="imageUpload" accept="image/jpeg, image/png"
+                            maxlength="5242880">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+
+</html>
